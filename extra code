@@ -1,0 +1,353 @@
+"AED": 3.6725,
+"AFN": 68.3283,
+"ALL": 82.7218,
+"AMD": 382.6216,
+"ANG": 1.7900,
+"AOA": 920.8606,
+"ARS": 1418.6700,
+"AUD": 1.5176,
+"AWG": 1.7900,
+"AZN": 1.7018,
+"BAM": 1.6681,
+"BBD": 2.0000,
+"BDT": 121.7538,
+"BGN": 1.6678,
+"BHD": 0.3760,
+"BIF": 2970.5923,
+"BMD": 1.0000,
+"BND": 1.2822,
+"BOB": 6.9374,
+"BRL": 5.4212,
+"BSD": 1.0000,
+"BTN": 88.2145,
+"BWP": 13.7197,
+"BYN": 3.2340,
+"BZD": 2.0000,
+"CAD": 1.3833,
+"CDF": 2878.4332,
+"CHF": 0.7964,
+"CLP": 971.3739,
+"CNY": 7.1241,
+"COP": 3950.6662,
+"CRC": 505.3626,
+"CUP": 24.0000,
+"CVE": 94.0434,
+"CZK": 20.7587,
+"DJF": 177.7210,
+"DKK": 6.3674,
+"DOP": 63.6670,
+"DZD": 129.7769,
+"EGP": 48.0013,
+"ERN": 15.0000,
+"ETB": 141.6466,
+"EUR": 0.8530,
+"FJD": 2.2395,
+"FKP": 0.7387,
+"FOK": 6.3673,
+"GBP": 0.7388,
+"GEL": 2.6924,
+"GGP": 0.7387,
+"GHS": 12.2074,
+"GIP": 0.7387,
+"GMD": 72.5163,
+"GNF": 8687.1638,
+"GTQ": 7.6745,
+"GYD": 209.1599,
+"HKD": 7.7884,
+"HNL": 26.2181,
+"HRK": 6.4261,
+"HTG": 130.8794,
+"HUF": 335.1966,
+"IDR": 16460.4362,
+"ILS": 3.3447,
+"IMP": 0.7387,
+"INR": 88.2133,
+"IQD": 1307.9512,
+"IRR": 42423.4499,
+"ISK": 122.1272,
+"JEP": 0.7387,
+"JMD": 160.2192,
+"JOD": 0.7090,
+"JPY": 147.2252,
+"KES": 129.1261,
+"KGS": 87.4460,
+"KHR": 4009.7984,
+"KID": 1.5172,
+"KMF": 419.5922,
+"KRW": 1387.6219,
+"KWD": 0.3053,
+"KYD": 0.8333,
+"KZT": 536.6686,
+"LAK": 21709.6601,
+"LBP": 89500.0000,
+"LKR": 302.0352,
+"LRD": 199.8836,
+"LSL": 17.5258,
+"LYD": 5.4103,
+"MAD": 9.0101,
+"MDL": 16.6424,
+"MGA": 4454.5712,
+"MKD": 52.6197,
+"MMK": 2103.3996,
+"MNT": 3567.4386,
+"MOP": 8.0220,
+"MRU": 39.8339,
+"MUR": 46.0678,
+"MVR": 15.4387,
+"MWK": 1742.4890,
+"MXN": 18.6234,
+"MYR": 4.2063,
+"MZN": 63.5948,
+"NAD": 17.5258,
+"NGN": 1506.3857,
+"NIO": 36.8122,
+"NOK": 9.9771,
+"NPR": 141.1432,
+"NZD": 1.6863,
+"OMR": 0.3845,
+"PAB": 1.0000,
+"PEN": 3.5073,
+"PGK": 4.2156,
+"PHP": 57.0235,
+"PKR": 283.7733,
+"PLN": 3.6254,
+"PYG": 7159.5773,
+"QAR": 3.6400,
+"RON": 4.3204,
+"RSD": 99.8023,
+"RUB": 83.5865,
+"RWF": 1451.7616,
+"SAR": 3.7500,
+"SBD": 8.2826,
+"SCR": 14.6496,
+"SDG": 449.0466,
+"SEK": 9.3759,
+"SGD": 1.2822,
+"SHP": 0.7387,
+"SLE": 23.2903,
+"SLL": 23290.2526,
+"SOS": 571.7498,
+"SRD": 39.0245,
+"SSP": 4550.8829,
+"STN": 20.8957,
+"SYP": 13107.7234,
+"SZL": 17.5258,
+"THB": 31.7141,
+"TJS": 9.4645,
+"TMT": 3.5000,
+"TND": 2.9033,
+"TOP": 2.3606,
+"TRY": 41.2689,
+"TTD": 6.7717,
+"TVD": 1.5172,
+"TWD": 30.2890,
+"TZS": 2473.4492,
+"UAH": 41.1554,
+"UGX": 3482.1374,
+"UYU": 40.0394,
+"UZS": 12314.5092,
+"VES": 156.3739,
+"VND": 26252.5343,
+"VUV": 118.6706,
+"WST": 2.7465,
+"XAF": 559.4562,
+"XCD": 2.7000,
+"XCG": 1.7900,
+"XDR": 0.7281,
+"XOF": 559.4562,
+"XPF": 101.7765,
+"YER": 240.0213,
+"ZAR": 17.5264,
+"ZMW": 24.1148,
+"ZWL": 26.7103
+
+
+
+
+
+
+
+
+
+AED	UAE Dirham	United Arab Emirates
+AFN	Afghan Afghani	Afghanistan
+ALL	Albanian Lek	Albania
+AMD	Armenian Dram	Armenia
+ANG	Netherlands Antillian Guilder	Netherlands Antilles
+AOA	Angolan Kwanza	Angola
+ARS	Argentine Peso	Argentina
+AUD	Australian Dollar	Australia
+AWG	Aruban Florin	Aruba
+AZN	Azerbaijani Manat	Azerbaijan
+BAM	Bosnia and Herzegovina Mark	Bosnia and Herzegovina
+BBD	Barbados Dollar	Barbados
+BDT	Bangladeshi Taka	Bangladesh
+BGN	Bulgarian Lev	Bulgaria
+BHD	Bahraini Dinar	Bahrain
+BIF	Burundian Franc	Burundi
+BMD	Bermudian Dollar	Bermuda
+BND	Brunei Dollar	Brunei
+BOB	Bolivian Boliviano	Bolivia
+BRL	Brazilian Real	Brazil
+BSD	Bahamian Dollar	Bahamas
+BTN	Bhutanese Ngultrum	Bhutan
+BWP	Botswana Pula	Botswana
+BYN	Belarusian Ruble	Belarus
+BZD	Belize Dollar	Belize
+CAD	Canadian Dollar	Canada
+CDF	Congolese Franc	Democratic Republic of the Congo
+CHF	Swiss Franc	Switzerland
+CLP	Chilean Peso	Chile
+CNY	Chinese Renminbi	China
+COP	Colombian Peso	Colombia
+CRC	Costa Rican Colon	Costa Rica
+CUP	Cuban Peso	Cuba
+CVE	Cape Verdean Escudo	Cape Verde
+CZK	Czech Koruna	Czech Republic
+DJF	Djiboutian Franc	Djibouti
+DKK	Danish Krone	Denmark
+DOP	Dominican Peso	Dominican Republic
+DZD	Algerian Dinar	Algeria
+EGP	Egyptian Pound	Egypt
+ERN	Eritrean Nakfa	Eritrea
+ETB	Ethiopian Birr	Ethiopia
+EUR	Euro	European Union
+FJD	Fiji Dollar	Fiji
+FKP	Falkland Islands Pound	Falkland Islands
+FOK	Faroese Króna	Faroe Islands
+GBP	Pound Sterling	United Kingdom
+GEL	Georgian Lari	Georgia
+GGP	Guernsey Pound	Guernsey
+GHS	Ghanaian Cedi	Ghana
+GIP	Gibraltar Pound	Gibraltar
+GMD	Gambian Dalasi	The Gambia
+GNF	Guinean Franc	Guinea
+GTQ	Guatemalan Quetzal	Guatemala
+GYD	Guyanese Dollar	Guyana
+HKD	Hong Kong Dollar	Hong Kong
+HNL	Honduran Lempira	Honduras
+HRK	Croatian Kuna	Croatia
+HTG	Haitian Gourde	Haiti
+HUF	Hungarian Forint	Hungary
+IDR	Indonesian Rupiah	Indonesia
+ILS	Israeli New Shekel	Israel
+IMP	Manx Pound	Isle of Man
+INR	Indian Rupee	India
+IQD	Iraqi Dinar	Iraq
+IRR	Iranian Rial	Iran
+ISK	Icelandic Króna	Iceland
+JEP	Jersey Pound	Jersey
+JMD	Jamaican Dollar	Jamaica
+JOD	Jordanian Dinar	Jordan
+JPY	Japanese Yen	Japan
+KES	Kenyan Shilling	Kenya
+KGS	Kyrgyzstani Som	Kyrgyzstan
+KHR	Cambodian Riel	Cambodia
+KID	Kiribati Dollar	Kiribati
+KMF	Comorian Franc	Comoros
+KRW	South Korean Won	South Korea
+KWD	Kuwaiti Dinar	Kuwait
+KYD	Cayman Islands Dollar	Cayman Islands
+KZT	Kazakhstani Tenge	Kazakhstan
+LAK	Lao Kip	Laos
+LBP	Lebanese Pound	Lebanon
+LKR	Sri Lanka Rupee	Sri Lanka
+LRD	Liberian Dollar	Liberia
+LSL	Lesotho Loti	Lesotho
+LYD	Libyan Dinar	Libya
+MAD	Moroccan Dirham	Morocco
+MDL	Moldovan Leu	Moldova
+MGA	Malagasy Ariary	Madagascar
+MKD	Macedonian Denar	North Macedonia
+MMK	Burmese Kyat	Myanmar
+MNT	Mongolian Tögrög	Mongolia
+MOP	Macanese Pataca	Macau
+MRU	Mauritanian Ouguiya	Mauritania
+MUR	Mauritian Rupee	Mauritius
+MVR	Maldivian Rufiyaa	Maldives
+MWK	Malawian Kwacha	Malawi
+MXN	Mexican Peso	Mexico
+MYR	Malaysian Ringgit	Malaysia
+MZN	Mozambican Metical	Mozambique
+NAD	Namibian Dollar	Namibia
+NGN	Nigerian Naira	Nigeria
+NIO	Nicaraguan Córdoba	Nicaragua
+NOK	Norwegian Krone	Norway
+NPR	Nepalese Rupee	Nepal
+NZD	New Zealand Dollar	New Zealand
+OMR	Omani Rial	Oman
+PAB	Panamanian Balboa	Panama
+PEN	Peruvian Sol	Peru
+PGK	Papua New Guinean Kina	Papua New Guinea
+PHP	Philippine Peso	Philippines
+PKR	Pakistani Rupee	Pakistan
+PLN	Polish Złoty	Poland
+PYG	Paraguayan Guaraní	Paraguay
+QAR	Qatari Riyal	Qatar
+RON	Romanian Leu	Romania
+RSD	Serbian Dinar	Serbia
+RUB	Russian Ruble	Russia
+RWF	Rwandan Franc	Rwanda
+SAR	Saudi Riyal	Saudi Arabia
+SBD	Solomon Islands Dollar	Solomon Islands
+SCR	Seychellois Rupee	Seychelles
+SDG	Sudanese Pound	Sudan
+SEK	Swedish Krona	Sweden
+SGD	Singapore Dollar	Singapore
+SHP	Saint Helena Pound	Saint Helena
+SLE	Sierra Leonean Leone	Sierra Leone
+SOS	Somali Shilling	Somalia
+SRD	Surinamese Dollar	Suriname
+SSP	South Sudanese Pound	South Sudan
+STN	São Tomé and Príncipe Dobra	São Tomé and Príncipe
+SYP	Syrian Pound	Syria
+SZL	Eswatini Lilangeni	Eswatini
+THB	Thai Baht	Thailand
+TJS	Tajikistani Somoni	Tajikistan
+TMT	Turkmenistan Manat	Turkmenistan
+TND	Tunisian Dinar	Tunisia
+TOP	Tongan Paʻanga	Tonga
+TRY	Turkish Lira	Turkey
+TTD	Trinidad and Tobago Dollar	Trinidad and Tobago
+TVD	Tuvaluan Dollar	Tuvalu
+TWD	New Taiwan Dollar	Taiwan
+TZS	Tanzanian Shilling	Tanzania
+UAH	Ukrainian Hryvnia	Ukraine
+UGX	Ugandan Shilling	Uganda
+USD	United States Dollar	United States
+UYU	Uruguayan Peso	Uruguay
+UZS	Uzbekistani So'm	Uzbekistan
+VES	Venezuelan Bolívar Soberano	Venezuela
+VND	Vietnamese Đồng	Vietnam
+VUV	Vanuatu Vatu	Vanuatu
+WST	Samoan Tālā	Samoa
+XAF	Central African CFA Franc	CEMAC
+XCD	East Caribbean Dollar	Organisation of Eastern Caribbean States
+XDR	Special Drawing Rights	International Monetary Fund
+XOF	West African CFA franc	CFA
+XPF	CFP Franc	Collectivités d'Outre-Mer
+YER	Yemeni Rial	Yemen
+ZAR	South African Rand	South Africa
+ZMW	Zambian Kwacha	Zambia
+ZWL	Zimbabwean Dollar	Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARS Argentine Peso Argentina
+LYD Libyan Dinar Libya
+SSP South Sudanese Pound South Sudan
+SYP Syrian Pound Syria
+VES Venezuelan Bolívar Soberano Venezuela
+YER Yemeni Rial Yemen
+ZWL Zimbabwean Dollar Zimbabwe

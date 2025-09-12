@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(40deg, rgb(210,0,0), rgb(180, 0, 0), rgb(146, 0, 0), rgb(109, 0, 0), rgb(77, 0, 0), rgb(57, 0, 0));
+    background-image: url(files_related_to_project/bg_img/bg_currency.webp);
+    background-size: cover;
+    background-size: 120% 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body_container {
+    /* margin: auto; */
+}
