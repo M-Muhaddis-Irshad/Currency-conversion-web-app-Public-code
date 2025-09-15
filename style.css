@@ -1,17 +1,244 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(40deg, rgb(210,0,0), rgb(180, 0, 0), rgb(146, 0, 0), rgb(109, 0, 0), rgb(77, 0, 0), rgb(57, 0, 0));
+    background-image: linear-gradient(40deg, rgb(210, 0, 0), rgb(180, 0, 0), rgb(146, 0, 0), rgb(109, 0, 0), rgb(77, 0, 0), rgb(57, 0, 0));
     background-image: url(files_related_to_project/bg_img/bg_currency.webp);
     background-size: cover;
     background-size: 120% 100%;
     background-attachment: fixed;
     height: 100vh;
     display: flex;
+    justify-content: center;
+}
+
+/* Body CSS start's_____________________________________ */
+
+/* Body Container CSS start's_____________________________________ */
+
+
+.body_container {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 70% !important;
+    max-width: 75%;
+    margin-top: 50px;
+}
+
+.body_container div {
+    margin-block: 20px;
+}
+
+/* Body Container CSS end's_____________________________________ */
+
+/* Body 1st Div CSS start's_____________________________________ */
+
+.logo_h3 {
+    color: white;
+}
+
+/* Body 1st Div CSS end's_____________________________________ */
+
+
+
+
+/* Body (2nd) Div CSS start's_____________________________________ */
+
+.conversion_area {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+select {
+    color: cyan;
+    /* text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa; */
+    font-size: large !important;
+    padding: 10px;
+    outline: none;
+    /* text-align: center !important; */
+    background-color: rgba(30, 143, 255, 0.5);
+    border: 1px solid cyan;
+    border-radius: 10px;
+}
+
+
+
+/* ScrollBar of select > options from all the  browsers_______________________________ */
+select::-webkit-scrollbar {
+    display: none;
+}
+
+select::-moz-scrollbar {
+    display: none;
+}
+
+select::-o-scrollbar {
+    display: none;
+}
+
+select::-google-ms-scrollbar {
+    display: none;
+}
+
+select::-khtml-scrollbar {
+    display: none;
+}
+
+/* ScrollBar of select > options from all the  browsers_______________________________ */
+
+
+option {
+    color: darkblue;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px !important;
+}
+
+.arrows {
+    font-size: xx-large;
+    color: white;
+}
+
+/* Body (2nd) Div CSS end's_____________________________________ */
+
+
+
+
+
+/* Body (3rd) Div CSS start's_____________________________________ */
+
+.inpAndBtn_cntnr {
+    display: flex;
+    gap: 50px;
+}
+
+/* Input section start's___________________________ */
+
+input {
+    font-size: larger;
+    /* color: rgb(49, 197, 255); */
+    color: rgb(149, 202, 255);
+    width: 250px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 5px 5px 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+input:focus {
+    scale: 1.1;
+    border: 1px solid cyan;
+}
+
+/* Scrollbar hiders_________________________________ */
+
+/* For Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+/* input[type=number] {
+    -moz-appearance: textfield;
+} */
+
+/* Scrollbar hiders_________________________________ */
+
+input::placeholder {
+    text-shadow: none;
+    color: rgba(0, 206, 209, 0.6);
+}
+
+/* Input section end's___________________________ */
+
+
+/* Button section start's___________________________ */
+
+button {
+    color: rgb(149, 202, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 10px !important;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+button:focus {
+    scale: 1;
+}
+
+/* Button section end's___________________________ */
+
+
+/* Body (3rd) Div CSS end's_____________________________________ */
+
+
+
+
+
+/* Body (4th) Div Converted Values CSS start's_____________________________________ */
+
+.convertedCrncy {
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* Converted Values (From (1st)Container) start's______________________ */
+
+.fromValues {
+    display: flex;
+    gap: 20px;
     align-items: center;
 }
 
-.body_container {
-    /* margin: auto; */
+/* Converted Values (From (1st)Container) end's______________________ */
+
+
+
+
+/* Converted Values (To (2nd)Container) start's______________________ */
+
+.toValues {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+
+
+/* Converted Values (To (2nd)Container) end's______________________ */
+
+
+
+/* Body (4th) Div Converted Values CSS end's_____________________________________ */
+
+
+/* .hide {
+    display: none;
+} */
+
+
+
+
+/* Body CSS end's_____________________________________ */

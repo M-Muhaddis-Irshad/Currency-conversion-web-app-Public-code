@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Weather Web</title>
+    <title>Currency Converter</title>
 
     <!-- My Css Link -->
     <link rel="stylesheet" href="style.css">
 
     <!-- FontAwesome Link -->
-    <!-- <script src="https://kit.fontawesome.com/bdc08be0ff.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/bdc08be0ff.js" crossorigin="anonymous"></script>
+
+    <!-- SweetAlert Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Bootstrap Css Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,13 +24,22 @@
 
     <div class="body_container">
 
+        <!-- Body (1st)Container Start's________________________________________ -->
+
         <div class="logo_container">
-            <h3>
+            <h3 class="logo_h3">
                 Currency Converter
             </h3>
         </div>
 
+        <!-- Body (1st)Container End's________________________________________ -->
+
+
+
+        <!-- Body (2nd)Container Start's________________________________________ -->
+
         <div class="conversion_area">
+
             <select name="" id="from_dropdown" class="unconverted_currency">
                 <option value="0" id="fromVal1">From</option>
                 <option value="AED">UAE Dirham</option>
@@ -195,6 +207,8 @@
 
             </select>
 
+            <i class="fa-solid fa-arrow-right-arrow-left arrows"></i>
+
             <select name="" id="to_dropdown" class="converted_currency">
                 <option value="0" id="toVal1">To</option>
                 <option value="AED">UAE Dirham</option>
@@ -361,9 +375,44 @@
                 <option value="ZWL">Zimbabwean Dollar</option>
 
             </select>
+
         </div>
 
+        <!-- Body (2nd)Container End's________________________________________ -->
+
+
+
+        <!-- Body (3rd)Container Start's________________________________________ -->
+
+        <div class="inpAndBtn_cntnr">
+
+            <input type="number" id="input" placeholder="Enter Amount in (Numbers)" disabled>
+            <button onclick="convertCurrency()" disabled>Convert</button>
+
+        </div>
+
+        <!-- Body (3rd)Container End's________________________________________ -->
+
+
+
+        <!-- Body (4th)Container Start's________________________________________ -->
+
+        <div class="convertedCrncy" id="afterConvert">
+            <div class="fromValues">
+                <h4> ${amount} </h4>
+                <h5>${base_code}</h5>
+            </div>
+            <h4> To </h4>
+            <div class="toValues">
+                <h4> ${conversion_result} </h4>
+                <h5>${target_code}</h5>
+            </div>
+        </div>
+
+        <!-- Body (4th)Container End's________________________________________ -->
+
     </div>
+
 
 
     <!-- My Javascript Link -->
