@@ -10,8 +10,20 @@ const toDdown = document.getElementById('to_dropdown');
 const button = document.getElementsByTagName('button')[0];
 const userInput = document.getElementById('input');
 
-// Converted value Box___________________________
+// Converted value Box_________________________________________________________
 const convertedCrncyBox = document.getElementById('afterConvert');
+
+// From & To containers
+const fromValues = document.getElementById('fromValues');
+const toValues = document.getElementById('toValues');
+
+// From container values______________________
+const fromCode = document.getElementById('fromCode');
+const fromAmount = document.getElementById('fromAmount');
+
+// To container values
+const toCode = document.getElementById('toCode');
+const toAmount = document.getElementById('toAmount');
 
 async function convertCurrency() {
 
@@ -19,7 +31,6 @@ async function convertCurrency() {
 
     if (userInput.value !== "") {
         amount = userInput.value;
-        console.log(amount);
     }
     else {
         amount = 1;
@@ -31,19 +42,27 @@ async function convertCurrency() {
         // console.log(currencyApi);
 
         const response = await currencyApi.json();
-        console.log(response);
+        // console.log(response);
 
         const { conversion_rate, conversion_result, target_code, base_code } = response;
-        console.log(`
-From: ${base_code} To: ${target_code} 
-Converted rate: ${conversion_result}(${target_code}) 
-        `);
+        //         console.log(`
+        // From: ${base_code} To: ${target_code} 
+        // Converted rate: ${conversion_result}(${target_code}) 
+        //         `);
 
-        // convertedCrncyBox.innerHTML = `
-        // <h3> ${base_code} </h3>
-        // <h4> To </h4>
-        // <h3> ${conversion_result} <h4>${target_code}</h4> </h3>
-        // `
+        // Main container of converted values
+        convertedCrncyBox.classList.add('active');
+
+        // Containers_________________________
+        fromValues.classList.add('active');
+        toValues.classList.add('active');
+
+        // Values________________________
+        fromCode.innerText = `${base_code} :`;
+        fromAmount.innerText = amount;
+        toCode.innerText = `${target_code} :`;
+        toAmount.innerText = conversion_result;
+
 
     } catch (error) {
         console.error('Not fetched');
@@ -75,12 +94,12 @@ function onCurrencySelect() {
     if (crncy1 !== "0") {
         userInput.removeAttribute('disabled');
         userInput.style.cursor = 'text';
-        userInput.style.display = 'block';
+        userInput.classList.add('active');
     }
     if (crncy1 !== "0" && crncy2 !== "0") {
         button.removeAttribute('disabled');
         button.style.cursor = 'pointer';
-        button.style.display = 'block';
+        button.classList.add('active');
     }
 
 }
@@ -92,30 +111,24 @@ toDdown.addEventListener("change", onCurrencySelect);
 
 if (userInput.hasAttribute('disabled')) {
     userInput.style.cursor = 'not-allowed';
-    userInput.style.display = 'none';
+    userInput.classList.remove('active');
 }
 
 if (button.hasAttribute('disabled')) {
     button.style.cursor = 'not-allowed';
-    // button.style.display = 'none';
+    button.classList.remove('active');
 
 }
 
 // Enter key support function Start's________________________________________________
 
 userInput.addEventListener('keypress', (event) => {
-    if (event.key === 'Enter' && !button.hasAttribute('disabled')) {
-        convertCurrency()
-    }
-    else {
-        console.log(`Button is disabled`);
-
-    }
+    if (event.key === 'Enter' && !button.hasAttribute('disabled')) convertCurrency()
 });
 
 // Enter key support function End's________________________________________________
 
 ;
 
-console.log(fromDdown[112].value);
+// console.log(fromDdown[112].value);
 ;

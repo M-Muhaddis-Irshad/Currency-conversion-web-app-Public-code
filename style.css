@@ -120,6 +120,22 @@ option {
     gap: 50px;
 }
 
+#input,
+button {
+    opacity: 0;
+    transform: scale(0.9);
+    visibility: hidden;
+    transition: 0.3s;
+    /* transition: opacity 0.3 ease, transform 0.3 ease; */
+}
+
+#input.active,
+button.active {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
+}
+
 /* Input section start's___________________________ */
 
 input {
@@ -128,8 +144,9 @@ input {
     color: rgb(149, 202, 255);
     width: 250px;
     outline: none;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(0, 7, 46);
     padding: 5px 5px 5px 10px;
+    filter: drop-shadow(0px 0px 5px cyan);
     border: 1px solid dodgerblue;
     border-radius: 10px;
     transition: 0.3s;
@@ -137,6 +154,7 @@ input {
 
 input:focus {
     scale: 1.1;
+    transform: scale(1.1);
     border: 1px solid cyan;
 }
 
@@ -168,20 +186,29 @@ input::placeholder {
 
 button {
     color: rgb(149, 202, 255);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(0, 7, 46);
     padding: 5px 10px;
     border: 1px solid dodgerblue;
     border-radius: 10px !important;
-    transition: 0.3s;
+    filter: drop-shadow(0px 0px 5px rgba(0, 255, 255, 0.6));
+    transition: 0.5s;
 }
 
 button:hover {
-    scale: 1.1;
+    color: cyan;
+    border-color: cyan;
+    filter: drop-shadow(0px 0px 5px cyan);
+    transform: scale(1.1);
+
     transition: 0.2s;
 }
 
 button:focus {
     scale: 1;
+    color: rgb(149, 202, 255);
+    border: 1px solid dodgerblue;
+    background-color: rgb(0, 7, 46);
+    box-shadow: none;
 }
 
 /* Button section end's___________________________ */
@@ -202,29 +229,76 @@ button:focus {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+
+    opacity: 0;
+    visibility: hidden;
+    /* transform: scale(0.9); */
+    transform: translateY(30px) scale(0.9);
+    transition: 1s;
+}
+
+.convertedCrncy.active {
+    opacity: 1;
+    visibility: visible;
+    /* transform: scale(1); */
+    transform: translateY(0px) scale(1);
+    transition: 0.3s;
 }
 
 
-/* Converted Values (From (1st)Container) start's______________________ */
+/* Converted Values (From & To (1st & 2nd)Container) similar block of code start's______________________ */
 
-.fromValues {
+.fromValues,
+.toValues {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.fromValues.active,
+.toValues.active {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgb(0, 65, 139), dodgerblue);
+    width: 250px;
+    height: 250px;
     display: flex;
-    gap: 20px;
+    /* flex-direction: column; */
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+    filter: drop-shadow(0px 0px 6px deepskyblue);
+    border: 0.2px solid transparent;
+    border-radius: 50%;
+
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+
+    transition: 0.3s;
 }
+
+.fromValues.active:hover,
+.toValues.active:hover {
+    transform: scale(1.1);
+    border-color: cyan;
+    filter: drop-shadow(0px 0px 8px cyan);
+}
+
+/* Converted Values (From & To (1st & 2nd)Container) similar block of code end's______________________ */
+
+
+
+
+/* Converted Values (From unique code (1st)Container) start's______________________ */
+
+/* .fromValues {} */
 
 /* Converted Values (From (1st)Container) end's______________________ */
 
 
+/* Converted Values (To unique code (2nd)Container) start's______________________ */
 
-
-/* Converted Values (To (2nd)Container) start's______________________ */
-
-.toValues {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
+/* .toValues {} */
 
 
 /* Converted Values (To (2nd)Container) end's______________________ */
@@ -232,12 +306,6 @@ button:focus {
 
 
 /* Body (4th) Div Converted Values CSS end's_____________________________________ */
-
-
-/* .hide {
-    display: none;
-} */
-
 
 
 

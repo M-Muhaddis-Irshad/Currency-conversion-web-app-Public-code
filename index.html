@@ -398,15 +398,17 @@
         <!-- Body (4th)Container Start's________________________________________ -->
 
         <div class="convertedCrncy" id="afterConvert">
-            <div class="fromValues">
-                <h4> ${amount} </h4>
-                <h5>${base_code}</h5>
+
+            <div class="fromValues" id="fromValues">
+                <h4 id="fromCode"> <h5 id="fromAmount"></h5></h4>
             </div>
-            <h4> To </h4>
-            <div class="toValues">
-                <h4> ${conversion_result} </h4>
-                <h5>${target_code}</h5>
+            
+            <h3 class="to_cntnr"> To </h3>
+            
+            <div class="toValues" id="toValues">
+                <h4 id="toCode"> <h5 id="toAmount"></h5></h4>
             </div>
+
         </div>
 
         <!-- Body (4th)Container End's________________________________________ -->
