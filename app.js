@@ -74,8 +74,6 @@ async function convertCurrency() {
 
 }
 
-convertCurrency()
-
 // Both DropDowns 1st option removing function() Start's____________________________________
 
 const from_1stVal = document.getElementById('fromVal1');
