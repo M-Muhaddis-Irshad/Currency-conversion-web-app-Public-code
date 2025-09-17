@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(40deg, rgb(210, 0, 0), rgb(180, 0, 0), rgb(146, 0, 0), rgb(109, 0, 0), rgb(77, 0, 0), rgb(57, 0, 0));
+    /* background-image: linear-gradient(40deg, rgb(210, 0, 0), rgb(180, 0, 0), rgb(146, 0, 0), rgb(109, 0, 0), rgb(77, 0, 0), rgb(57, 0, 0)); */
     background-image: url(files_related_to_project/bg_img/bg_currency.webp);
     background-size: cover;
     background-size: 120% 100%;
@@ -269,11 +269,12 @@ button:focus {
     filter: drop-shadow(0px 0px 6px deepskyblue);
     border: 0.2px solid transparent;
     border-radius: 50%;
+    position: relative;
+    overflow: auto;
 
     opacity: 1;
     visibility: visible;
     transform: scale(1);
-
     transition: 0.3s;
 }
 
@@ -284,25 +285,41 @@ button:focus {
     filter: drop-shadow(0px 0px 8px cyan);
 }
 
+
+.fromValues,
+.toValues::-moz-scrollbar {
+    display: none;
+}
+
+.fromValues,
+.toValues::-o-scrollbar {
+    display: none;
+}
+
+.fromValues,
+.toValues::-google-ms-scrollbar {
+    display: none;
+}
+
+.fromValues,
+.toValues::-khtml-scrollbar {
+    display: none;
+}
+
+.fromCode,
+.toCode {
+    position: fixed !important;
+}
+
+.amount {
+    max-width: 100px;
+}
+
+.arrow {
+    font-size: 50px !important;
+}
+
 /* Converted Values (From & To (1st & 2nd)Container) similar block of code end's______________________ */
-
-
-
-
-/* Converted Values (From unique code (1st)Container) start's______________________ */
-
-/* .fromValues {} */
-
-/* Converted Values (From (1st)Container) end's______________________ */
-
-
-/* Converted Values (To unique code (2nd)Container) start's______________________ */
-
-/* .toValues {} */
-
-
-/* Converted Values (To (2nd)Container) end's______________________ */
-
 
 
 /* Body (4th) Div Converted Values CSS end's_____________________________________ */
@@ -310,3 +327,197 @@ button:focus {
 
 
 /* Body CSS end's_____________________________________ */
+
+
+
+/* @Media Queries_________________________________________________________________________________________________ */
+
+@media only screen and (max-width: 670px) {
+    body {
+        background-size: 150% 100%;
+    }
+
+    /* Body (2nd) Div CSS start's_____________________________________ */
+
+    .conversion_area {
+        gap: 10px;
+    }
+
+    select {
+        font-size: medium !important;
+        padding: 6px 10px;
+        width: 180px;
+    }
+
+
+    .arrows {
+        font-size: x-large;
+    }
+
+    /* Body (2nd) Div CSS end's_____________________________________ */
+
+
+
+
+
+
+
+    /* Body (3rd) Div CSS start's_____________________________________ */
+
+    .inpAndBtn_cntnr {
+        display: flex;
+        gap: 50px;
+    }
+
+    /* Input section start's___________________________ */
+
+    input {
+        font-size: larger;
+        width: 250px;
+        padding: 5px 5px 5px 10px;
+    }
+
+    /* Input section end's___________________________ */
+
+
+    /* Button section start's___________________________ */
+
+    button {
+        padding: 5px 10px;
+        border: 1px solid dodgerblue;
+        border-radius: 10px !important;
+    }
+
+    /* Button section end's___________________________ */
+
+
+    /* Body (3rd) Div CSS end's_____________________________________ */
+
+
+
+
+    /* Body (4th) Div Converted Values CSS start's_____________________________________ */
+
+    .convertedCrncy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Converted Values (From & To (1st & 2nd)Container) similar block of code start's______________________ */
+
+    .fromValues.active,
+    .toValues.active {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .arrow {
+        transform: rotate(90deg);
+    }
+
+    /* Converted Values (From & To (1st & 2nd)Container) similar block of code end's______________________ */
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        background-size: 180% 100%;
+    }
+
+    .conversion_area {
+        gap: 10px;
+    }
+
+    select {
+        font-size: medium !important;
+        padding: 6px 10px;
+        width: 160px;
+    }
+
+    .arrows {
+        font-size: x-large;
+    }
+
+    .inpAndBtn_cntnr {
+        display: flex;
+        gap: 20px;
+    }
+
+    input {
+        font-size: larger;
+        width: 200px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    button {
+        padding: 5px 10px;
+        border: 1px solid dodgerblue;
+        border-radius: 10px !important;
+    }
+
+    .convertedCrncy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    body {
+        background-size: 180% 100%;
+    }
+
+    .conversion_area {
+        gap: 10px;
+    }
+
+    select {
+        padding: 6px 8px;
+        width: 140px;
+    }
+
+    .arrows {
+        font-size: large;
+    }
+
+    .inpAndBtn_cntnr {
+        display: flex;
+        gap: 15px;
+    }
+
+    input {
+        font-size: larger;
+        width: 160px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    button {
+        padding: 5px 5px;
+        border: 1px solid dodgerblue;
+        border-radius: 10px !important;
+    }
+
+    .convertedCrncy {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+
+}

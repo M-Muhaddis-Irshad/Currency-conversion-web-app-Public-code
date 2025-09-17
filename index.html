@@ -9,8 +9,11 @@
     <!-- My Css Link -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google Icons Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <!-- FontAwesome Link -->
-    <script src="https://kit.fontawesome.com/bdc08be0ff.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com" crossorigin="anonymous"></script>
 
     <!-- SweetAlert Js Link -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -400,13 +403,20 @@
         <div class="convertedCrncy" id="afterConvert">
 
             <div class="fromValues" id="fromValues">
-                <h4 id="fromCode"> <h5 id="fromAmount"></h5></h4>
+                <h4 id="fromCode">
+                    <h5 class="amount" id="fromAmount"></h5>
+                </h4>
             </div>
-            
-            <h3 class="to_cntnr"> To </h3>
-            
+
+            <h3 class="to_cntnr">
+                <!-- To -->
+                <i class="material-icons material-symbols-outlined arrow">east</i>
+            </h3>
+
             <div class="toValues" id="toValues">
-                <h4 id="toCode"> <h5 id="toAmount"></h5></h4>
+                <h4 id="toCode">
+                    <h5 class="amount" id="toAmount"></h5>
+                </h4>
             </div>
 
         </div>

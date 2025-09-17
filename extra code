@@ -351,3 +351,54 @@ SYP Syrian Pound Syria
 VES Venezuelan Bolívar Soberano Venezuela
 YER Yemeni Rial Yemen
 ZWL Zimbabwean Dollar Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+132  #input.active,
+133  button.active {
+
+
+240  .convertedCrncy.active {
+
+
+259   .fromValues.active,
+260   .toValues.active {
+
+
+280   .fromValues.active:hover,
+281   .toValues.active:hover {

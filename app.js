@@ -25,11 +25,13 @@ const fromAmount = document.getElementById('fromAmount');
 const toCode = document.getElementById('toCode');
 const toAmount = document.getElementById('toAmount');
 
+// Currency Conversion function___________________________________________________
+
 async function convertCurrency() {
 
     let amount = 1;
 
-    if (userInput.value !== "") {
+    if (userInput.value.trim() !== "") {
         amount = userInput.value;
     }
     else {
@@ -37,7 +39,7 @@ async function convertCurrency() {
     }
 
     try {
-        const currencyApi = await fetch(`https://v6.exchangerate-api.com/v6/dca197b6c0906c69b50495d2/pair/${fromDdown.value}/${toDdown.value}/${amount}`);
+        const currencyApi = await fetch(`https://v6.exchangerate-api.com/v6//pair/${fromDdown.value}/${toDdown.value}/${amount}`);
 
         // console.log(currencyApi);
 
@@ -63,13 +65,16 @@ async function convertCurrency() {
         toCode.innerText = `${target_code} :`;
         toAmount.innerText = conversion_result;
 
+        // Empty Input Field_____________________
+        userInput.value = "";
 
     } catch (error) {
         console.error('Not fetched');
-
     }
 
 }
+
+convertCurrency()
 
 // Both DropDowns 1st option removing function() Start's____________________________________
 
